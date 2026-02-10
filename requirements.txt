@@ -1,0 +1,10 @@
+# Project Dependencies
+
+# Reinforcement learning library
+gymnasium==0.26.2
+
+# Numerical computations
+numpy==1.25.0
+
+# Plotting library
+matplotlib==3.7.1
