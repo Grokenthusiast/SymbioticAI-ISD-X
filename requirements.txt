@@ -8,3 +8,9 @@ numpy==1.25.0
 
 # Plotting library
 matplotlib==3.7.1
+
+# # Stable Baselines & Compatibility
+stable-baselines3==2.7.1 
+
+ #shimmy 
+shimmy==2.0.0
