@@ -54,7 +54,7 @@ class SymbioticX15D(gym.Env):
         if action == 0:  # VIRAL CONTENT
             engagement = 1.2
             mental_cost = 0.25
-            reward = engagement * somatic  # If user is tired, viral content hurts more
+            reward = engagement * somatic  # If user is tired, viral content hurts more.
             cognitive_load += mental_cost
             somatic -= 0.15
             diversity -= 0.05
