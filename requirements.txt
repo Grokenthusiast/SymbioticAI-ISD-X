@@ -1,16 +1,17 @@
-# Project Dependencies
+# --- Core Intelligence & Validation ---
+pydantic>=2.10.0
+loguru>=0.7.2
 
-# Reinforcement learning library
-gymnasium==0.26.2
+# --- Environment & Simulation ---
+numpy>=1.24.0
+gymnasium[classic-control]>=0.29.1
 
-# Numerical computations
-numpy==1.25.0
+# --- Reinforcement Learning Stack ---
+# Usando a versão estável para Python 3.10+
+stable-baselines3[extra]>=2.3.2
+torch>=2.2.0
 
-# Plotting library
-matplotlib==3.7.1
-
-# # Stable Baselines & Compatibility
-stable-baselines3==2.7.1 
-
- #shimmy 
-shimmy==2.0.0
+# --- Quantum Dimension (Optional but recommended) ---
+# Se o ambiente permitir compilação (como no Colab)
+qiskit>=1.0.0
+qiskit-aer>=0.13.0
